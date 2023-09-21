@@ -1,0 +1,113 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "RG Animation on scroll",
+    "fields": {
+        "AAD": {
+            "caption": "animation",
+            "default_val": "fade",
+            "doc": "Set animation of the items.",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "fade,fade-up,fade-down,fade-left,fade-right,fade-up-right,fade-up-left,fade-down-right,fade-down-left,flip-up,flip-down,flip-left,flip-right,slide-up,slide-down,slide-left,slide-right,zoom-in,zoom-in-up,zoom-in-down,zoom-in-left,zoom-in-right,zoom-out,zoom-out-up,zoom-out-down,zoom-out-left,zoom-out-right",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "rg-container",
+            "doc": "The ID of your repeating group",
+            "editor": "DynamicValue",
+            "name": "container",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "easing",
+            "default_val": "linear",
+            "doc": "default easing for AOS animations",
+            "editor": "Dropdown",
+            "name": "easing",
+            "options": "linear,ease,ease-in,ease-out,ease-in-out,ease-in-back,ease-out-back,ease-in-out-back,ease-in-sine,ease-out-sine,ease-in-out-sine,ease-in-quad,ease-out-quad,ease-in-out-quad,ease-in-cubic,ease-out-cubic,ease-in-out-cubic,ease-in-quart,ease-out-quart,ease-in-out-quart",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "anchor",
+            "default_val": "top-bottom",
+            "doc": "defines which position of the element regarding to window should trigger the animation",
+            "editor": "Dropdown",
+            "name": "anchor",
+            "options": "top-bottom,top-center,top-top,center-bottom,center-center,center-top,bottom-bottom,bottom-center,bottom-top",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "delay",
+            "default_val": "0",
+            "doc": "values from 0 to 3000, with step 50ms",
+            "editor": "Dropdown",
+            "name": "delay",
+            "options": "0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000",
+            "rank": 2
+        },
+        "AAL": {
+            "caption": "duration",
+            "default_val": "400",
+            "doc": "values from 0 to 3000, with step 50ms",
+            "editor": "Dropdown",
+            "name": "duration",
+            "options": "0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000",
+            "rank": 3
+        },
+        "AAO": {
+            "caption": "debounceDelay",
+            "default_val": 50,
+            "doc": "the delay on debounce used while resizing window (advanced)",
+            "editor": "DynamicValue",
+            "name": "debounceDelay",
+            "rank": 5,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "throttleDelay",
+            "default_val": 99,
+            "doc": "the delay on throttle used while scrolling the page (advanced)",
+            "editor": "DynamicValue",
+            "name": "throttleDelay",
+            "rank": 6,
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "offset",
+            "default_val": 120,
+            "doc": "offset (in px) from the original trigger point",
+            "editor": "DynamicValue",
+            "name": "offset",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAR": {
+            "caption": "mirror",
+            "default_val": false,
+            "doc": "whether elements should animate out while scrolling past them",
+            "editor": "DynamicValue",
+            "name": "mirror",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "AAS": {
+            "caption": "once",
+            "default_val": false,
+            "doc": "whether animation should happen only once - while scrolling down",
+            "editor": "DynamicValue",
+            "name": "once",
+            "rank": 9,
+            "value": "boolean"
+        }
+    },
+    "icon": "ion-android-checkbox-blank"
+}

@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "demo_page": "https://animate-on-scroll-demo.bubbleapps.io/version-test",
+    "description": "[🚀 WU Optimized] This plugin allows you to trigger animations on the items of your Repeating Group within your page when they enter/leave the viewport. \n\nYou can choose different animations, delay, duration, and easing so you can control the user experience as your needs.\n\n-------------\n\n🔗 Documentation, Editor & Demo : www.flusk.eu/plugins/repeating-group-animate-on-scroll\n\n-------------\n\n✔️ FEATURES \n\n- Choose between 27 types of animations\n- Define delay\n- Define animation duration\n- 100% customizable\n\n-------------\n\nBenefits of using Flusk plugins.\n\n✅ High maintainability & reliability\nAll our plugins are regularly reviewed and updated\n\n📞 Immediate and premium support for free\nVisit the plugin page to get free live assistance with setting up the plugin\n\n📚 Complete documentation and tutorials\nEach plugin comes with complete documentation and video tutorials\n\n💸 100% CASHBACK ON ALL OUR PLUGINS\nVisit our plugin page and get 100% cashback on your purchase\n\n\nIf you have any questions or suggestions about this plugin, please use the chat on our website.\nWe always answer within a few minutes during business days.",
+    "image": "//meta-l.cdn.bubble.io/f1695288053321x502323176597982800/Design%20sans%20titre%20%2825%29.gif",
+    "license": "open_source",
+    "link": "www.flusk.eu/plugins/repeating-group-animate-on-scroll",
+    "name": "Repeating Group Animate On Scroll",
+    "plugin_instructions": "1. Go to Settings->General of your application and expose the option to add id attributes to html elements.\n2. Place the element \"RG Animation on scroll\" on your page.\n3. Add unique element IDs to your repeating group that should be targeted by animation. \n4. Choose the animation, delay, duration, and easing. \n5. Make sure the repeating group and \"RG Animation on scroll\" elements are visible at the same time. \n\n"
+}
